@@ -2,7 +2,7 @@
 	"name": "SQL script 1",
 	"properties": {
 		"content": {
-			"query": "SELECT * FROM athletes\n",
+			"query": "SELECT * FROM athletes\n--gfhfghgfhfghfghfghfghfghfghfghfgh\n",
 			"metadata": {
 				"language": "sql"
 			},
