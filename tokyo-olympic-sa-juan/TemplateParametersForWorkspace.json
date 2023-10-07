@@ -1,0 +1,15 @@
+{
+	"$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+	"contentVersion": "1.0.0.0",
+	"parameters": {
+		"workspaceName": {
+			"value": "tokyo-olympic-sa-juan"
+		},
+		"tokyo-olympic-sa-juan-WorkspaceDefaultSqlServer_connectionString": {
+			"value": "Integrated Security=False;Encrypt=True;Connection Timeout=30;Data Source=tcp:tokyo-olympic-sa-juan.sql.azuresynapse.net,1433;Initial Catalog=@{linkedService().DBName}"
+		},
+		"tokyo-olympic-sa-juan-WorkspaceDefaultStorage_properties_typeProperties_url": {
+			"value": "https://tokyoolympicjuand.dfs.core.windows.net"
+		}
+	}
+}
