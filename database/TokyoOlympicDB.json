@@ -1,0 +1,25 @@
+{
+	"name": "TokyoOlympicDB",
+	"properties": {
+		"Name": "TokyoOlympicDB",
+		"EntityType": "DATABASE",
+		"Origin": {
+			"Type": "SPARK"
+		},
+		"Properties": {
+			"IsSyMSCDMDatabase": true
+		},
+		"Source": {
+			"Provider": "ADLS",
+			"Location": "abfss://tokyo-olympic-data@tokyoolympicjuand.dfs.core.windows.net/transformed-data/athletes",
+			"Properties": {
+				"FormatType": "csv",
+				"LinkedServiceName": "tokyo-olympic-sa-juan-WorkspaceDefaultStorage"
+			}
+		},
+		"PublishStatus": "PUBLISHED",
+		"ObjectVersion": 2,
+		"ObjectId": "63b7d939-6088-43bb-a294-7aaf327c52d8"
+	},
+	"type": "DATABASE"
+}
